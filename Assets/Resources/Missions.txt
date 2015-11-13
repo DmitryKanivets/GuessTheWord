@@ -1,0 +1,31 @@
+#To create level write this:
+#Level:NUMBER_OF_LEVEL;Difficulty:DIFFICULTY;
+#Stage:NUMBER_OF_STAGE;Difficulty:DIFFICULTY_OF_STAGE;Image:NAME_OF_STAGE_IMAGE(only name of image);Answer:ANSWER (use ' ' to detach words from each other, write ONLY BIG letters);NumberOfRows:NUMBER_OF_ROWS_OF_LETTERS(from which u will write the answer);
+#END_LEVEL;
+#
+#Use '#' at the start of line to write comments
+#
+#Sample:
+#Level:1;Difficulty:1;
+#Stage:1;Difficulty:1;Image:IRON_MAN;Answer:IRON MAN;NumberOfRows:3;
+#Stage:2;Difficulty:2;Image:2;Answer:Shadow;NumberOfRows:2;
+#END_LEVEL
+#
+#Don't use empty lines 
+Level:2;Difficulty:1;
+Stage:1;Difficulty:1;Image:3;Answer:MILK;NumberOfRows:2;
+Stage:2;Difficulty:2;Image:4;Answer:DUCK;NumberOfRows:2;
+END_LEVEL
+Level:1;Difficulty:1;
+Stage:1;Difficulty:1;Image:1;Answer:IRON MAN;NumberOfRows:3;
+Stage:2;Difficulty:2;Image:2;Answer:ONE;NumberOfRows:2;
+END_LEVEL
+Level:3;Difficulty:2;
+Stage:1;Difficulty:1;Image:5;Answer:FIRE;NumberOfRows:2;
+Stage:2;Difficulty:2;Image:6;Answer:EARTH;NumberOfRows:2;
+Stage:3;Difficulty:2;Image:7;Answer:CAR;NumberOfRows:2;
+Stage:4;Difficulty:2;Image:8;Answer:EAGLE;NumberOfRows:2;
+Stage:5;Difficulty:2;Image:9;Answer:LIGHT;NumberOfRows:2;
+Stage:6;Difficulty:2;Image:10;Answer:SHADOW;NumberOfRows:2;
+Stage:7;Difficulty:2;Image:11;Answer:COW;NumberOfRows:2;
+END_LEVEL
